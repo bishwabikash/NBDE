@@ -19,18 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="209d2ca5-394a-4a77-9d93-eecd99d73aee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/NBDE.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Includes/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Includes/db_config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Includes/ops_db.php" afterDir="false" />
-    </list>
+    <list default="true" id="209d2ca5-394a-4a77-9d93-eecd99d73aee" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,6 +81,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
