@@ -8,8 +8,9 @@ Both front-end and back-end technologies will be used in the development of the 
  Different folders have been created in the repository under which files of different types and needs have been categorized. As for example, putting all the images  under the same parent folder named as "Images" inorder to avoid path related problems in the code. 
 
 # HTML files and their associated briefs
-index.html contains the main homepage
-login.html contains the login portal for both franchise  and admin
+index.html contains the main homepage.
+login.html contains the login portal for both franchise  and admin.
+
 # CSS files and their associated briefs
 style.css contains the styling that has been done for index.html
 login.css contains the styling that has been done for login.html
