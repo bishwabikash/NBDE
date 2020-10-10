@@ -1,13 +1,11 @@
 
 body{
-    background: url(./images/bg.jpg);
+    background: url(images/bg.jpg);
     background-color: rgba(32, 36, 54, 0.445);
     background-blend-mode: darken;
     font-family: 'Poppins', sans-serif;
 
-    
-   
-    
+
 }
 
 /* ...........first section/ header-menu .........................*/

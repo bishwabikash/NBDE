@@ -80,10 +80,16 @@ body .btn-primary{
    
 }
 
-@keyframes slider{
-    0%{background-image: url(./images/b1.jpg); }
-    35%{background-image: url(./images/b2.jpg); }
-    70%{ background-image: url(./images/b3.jpg);}
+@keyframes slider {
+    0% {
+        background-image: url(images/b1.jpg);
+    }
+    35% {
+        background-image: url(images/b2.jpg);
+    }
+    70% {
+        background-image: url(images/b3.jpg);
+    }
 }
 
 .banner-info{

@@ -19,7 +19,24 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="209d2ca5-394a-4a77-9d93-eecd99d73aee" name="Default Changelist" comment="" />
+    <list default="true" id="209d2ca5-394a-4a77-9d93-eecd99d73aee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/images/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/NBDE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NBDE.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2c62d37c-dd70-4b18-83b3-8e7ba14da9f5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/2c62d37c-dd70-4b18-83b3-8e7ba14da9f5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/NBDE.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/NBDE.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/b1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/b1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/b2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/b2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/b3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/b3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/dd.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/dd.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/smile.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/smile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Includes/ops_db.php" beforeDir="false" afterPath="$PROJECT_DIR$/Includes/ops_db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,13 +63,14 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Includes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Images" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="SQL Dialects" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\NBDE\Images" />
       <recent name="E:\xampp\htdocs\NBDE\Includes" />
     </key>
   </component>
@@ -65,6 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601804446876</updated>
       <workItem from="1601804448211" duration="1264000" />
+      <workItem from="1602362779890" duration="3443000" />
     </task>
     <servers />
   </component>
@@ -91,6 +110,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="175" key="#CLI_Interpreters/0.0.1920.1040@0.0.1920.1040" timestamp="1601804575539" />
+    <state x="586" y="198" key="#Inspections" timestamp="1602364886804">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="586" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1602364886804" />
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601805236636">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -107,5 +130,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601804973572" />
+    <state x="818" y="258" width="620" height="524" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1602364508933">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="818" y="258" width="620" height="524" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602364508933" />
   </component>
 </project>
