@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="dashboard.css">
+
+    <title>NBDE-A SKILL INDIA INITIATIVE</title>
+</head>
+
+<body>
+
+    <!-- ...........header-menu................ -->
+
+    <div class="first-section ">
+
+        <div class="row row1">
+            <div class="col-lg-3 col11  ">
+                <div class="left-header">
+                    <img src="./images/NBDE.png" alt="" style="width: 6rem;">
+
+                </div>
+            </div>
+            <div class="col-lg-9 col12">
+                <div class="right-header">
+
+                    <div class="searchbar">
+                        <input type="text" placeholder="Search Here" class="inp1">
+                        <input type="submit" class="inp2">
+                    </div>
+
+
+
+                    <div class="notify" style="
+                ">
+                        <ul style="list-style: none;
+                        display: flex;
+                        justify-content: space-around;
+                        position: relative;
+                        right: 10px;
+                        top: 7px;
+                        /* margin: auto; */
+                        padding: 0px;">
+
+                            <!-- dropdown notifications -->
+                            <li>
+                                <a href="#">
+                                    <i class="fas fa-comment-dots"></i>
+                                </a>
+
+                                <ul style="
+                                    list-style: none;
+                                    position: absolute;
+                                    top: 100%;
+                                    left: -260px;
+                                    width: 300px;
+                                    height: 300px;
+                                    background-color: rgb(234, 192, 245);
+                                    z-index: 99;
+                                    border-radius: 20px 20px 20px 20px;
+                                ">
+                                    <li><a href="#">New Messages</a></li>
+                                    <hr style="position: relative;
+                                    right: 32px;
+                                    width: 300px; color: white;">
+                                </ul>
+
+                            </li>
+
+                            <!-- .............................. -->
+                            <li>
+                                <a href="#">
+                                    <i class="fas fa-envelope"></i>
+                                </a>
+                                <ul style="
+                                    list-style: none;
+                                    position: absolute;
+                                    top: 100%;
+                                    left: -200px;
+                                    width: 300px;
+                                    height: 300px;
+                                    background-color: rgb(234, 192, 245);
+                                    z-index: 99;
+                                    border-radius: 20px 20px 20px 20px;
+                                ">
+                                    <li><a href="#">New emails</a></li>
+                                    <hr style="position: relative;
+                                    right: 32px;
+                                    width: 300px; color: white;">
+                                </ul>
+
+                            </li>
+
+                            <!-- ...................... -->
+
+
+                            <li>
+                                <a href="#">
+                                    <i class="fas fa-concierge-bell"></i>
+                                </a>
+                                <ul style="
+                                    list-style: none;
+                                    position: absolute;
+                                    top: 100%;
+                                    left: -150px;
+                                    width: 300px;
+                                    height: 300px;
+                                    background-color: rgb(234, 192, 245);
+                                    z-index: 99;
+                                    border-radius: 20px 20px 20px 20px;
+                                ">
+                                    <li><a href="#">New Notifications</a></li>
+                                    <hr style="position: relative;
+                                    right: 32px;
+                                    width: 300px; color: white;">
+                                </ul>
+
+                            </li>
+                        </ul>
+
+
+                    </div>
+
+                    <div class="profile">
+                        <img src="./images/smile.png" alt="" style="height:40px">
+                        <h6 style="display: inline-block;"> Simon</h6>
+
+                    </div>
+
+                    <!-- dropdown account section -->
+                    <div class="dropdown">
+
+                        <ul class="m-auto" style="position: relative; right: 30px;">
+                            <li>
+                                <a href="#">
+                                    <i class="fas fa-caret-down"></i>
+                                </a>
+
+
+                                <ul>
+                                    <li>
+                                        <img src="./images/smile.png" class="pb-4" alt="">
+                                        <h6>User Fullname (Simon)</h6>
+                                        <p>email@ajooba.com</p>
+                                    </li>
+                                    <li><a href="#">Account</a></li>
+                                    <li><a href="#">Settings</a></li>
+                                    <hr style="position: relative;
+                                    right: 32px;
+                                    width: 300px; color: white;">
+                                    <li><a href="#">Logout</a></li>
+                                </ul>
+
+                            </li>
+
+                        </ul>
+
+
+
+
+
+
+
+
+
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <!-- ..........dashboard side menu & main content page.......... -->
+
+    <div class="second-section mb-2">
+        <div class="row row2">
+            <div class="col-lg-3 col21">
+
+                <div class="dashboard-menu"
+                    style="margin: 30px 0px;width: 85%; background-color: rgb(255, 255, 255); position: relative; left: 5px; display: flex; flex-direction: column;  border-radius: 20px; ">
+                    <h6 class="text-center  mt-4 "
+                        style="background-color: rgba(21, 54, 161, 0.781); padding: 8px 0px; color: rgb(248, 248, 246);">
+                        DASHBOARD</h6>
+
+
+                    <ul class="mt-3 ml-4">
+                        <li>
+                            <i class="fas fa-cogs "></i>
+                            <a href="#">Students</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-cogs"></i>
+                            <a href="#">Examinations</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-cogs"></i>
+                            <a href="#">Shipping & Log</a>
+                        </li>
+                    </ul>
+
+                    <hr>
+
+                    <div class="lower-side-menu" style=" ">
+                        <ul class="ml-4 mt-3">
+                            <li class="py-1">
+                                <i class="fas fa-credit-card pr-1" style="font-size: 13px; color: dimgray;"></i>
+                                <a href="#" style="font-size: 13px; font-weight: 600; color: rgb(82, 80, 80)">Payment
+                                    Portal</a>
+
+                            </li>
+                            <li class="py-1 ">
+                                <i class="fas fa-plane-departure pr-1" style="font-size: 13px; color: dimgray;"></i>
+                                <a href="#" style="font-size: 13px; font-weight: 600; color: rgb(82, 80, 80)">Message
+                                    Board</a>
+                            </li>
+                            <li class="py-1 ">
+                                <i class="fas fa-file-download pr-1 ml-1" style="font-size: 14px; color: dimgray;"></i>
+                                <a href="#"
+                                    style="font-size: 13px; font-weight: 600; color: rgb(82, 80, 80)">Downloads</a>
+                            </li>
+                            <li class="py-1 mt-2">
+
+                                <i class="fas fa-lightbulb pr-1 " style="font-size: 15px; color: rgb(11, 131, 47);"></i>
+                                <a href="#"
+                                    style="font-size: 13px; font-weight: 800; color: rgba(230, 17, 81, 0.822)">Submit
+                                    your idea</a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+
+            <!--........ main content section (right side) ..........-->
+
+
+            <div class="col-lg-9 col22">
+
+                <div class="row students  ">
+                    <div class="col-lg-4 applied d-flex justify-content-center ">
+
+                        <div class="card">
+                            <div class="card-header bg-dark text-center  ">
+                                <strong class="card-title text-light">Students Applied</strong>
+                            </div>
+                            <div class="card-body text-white " style="background-color: rgb(240, 107, 54);">
+                                <p class="card-text text-light"> List of students who applied for various
+                                    courses.
+                                </p>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <div class="col-lg-4 registered d-flex justify-content-center ">
+                        <div class="card">
+                            <div class="card-header bg-dark text-center ">
+                                <strong class="card-title text-light">Students Registered</strong>
+                            </div>
+                            <div class="card-body text-white " style="background-color: rgb(57, 151, 62);">
+                                <p class="card-text text-light">Students who have been granted registration for various
+                                    courses.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 details d-flex justify-content-center">
+                        <div class="card">
+                            <div class="card-header bg-dark text-center ">
+                                <strong class="card-title text-light">Students Details</strong>
+                            </div>
+                            <div class="card-body text-white " style="background-color: rgb(54, 141, 240);">
+                                <p class="card-text text-light">Information related to students who are registered with
+                                    associated courses.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row exams">
+                    <div class="col-lg-4 completed  d-flex justify-content-center">
+                        <div class="card mb-5">
+                            <div class="card-header bg-dark text-center ">
+                                <strong class="card-title text-light">Exams Completed</strong>
+                            </div>
+                            <div class="card-body text-white " style="background-color: rgb(34, 102, 141);">
+                                <p class="card-text text-light">List of exams that have been completed along with number
+                                    of students who appeared
+                                    respectively for various exams </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 marks submission  d-flex justify-content-center">
+
+                        <div class="card mb-5">
+                            <div class="card-header bg-dark text-center ">
+                                <strong class="card-title text-light">Exams Marks Submission</strong>
+                            </div>
+                            <div class="card-body text-white " style="background-color: rgba(201, 10, 10, 0.829);">
+                                <p class="card-text text-light">Submission of marks obtained by students on various courses. </p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="col-lg-4 results & marksheets  d-flex justify-content-center">
+
+                        <div class="card mb-5">
+                            <div class="card-header bg-dark text-center ">
+                                <strong class="card-title text-light">Results & Marksheets</strong>
+                            </div>
+                            <div class="card-body text-white " style="background-color: rgb(15, 129, 133);">
+                                <p class="card-text text-light">Declaration/Updation of Results and issuing of marksheets. </p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <hr>
+                <div class="row shipping">
+                    <div class="col-lg-4 a  d-flex justify-content-center ">
+                        <div class="card">
+                            <div class="card-header bg-dark text-center ">
+                                <strong class="card-title text-light">Shipping log</strong>
+                            </div>
+                            <div class="card-body text-white " style="background-color: rgb(29, 97, 55);">
+                                <p class="card-text text-light">Yet to be updated.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 b  d-flex justify-content-center">
+                        <div class="card">
+                            <div class="card-header bg-dark text-center ">
+                                <strong class="card-title text-light">Order Status</strong>
+                            </div>
+                            <div class="card-body text-white " style="background-color: rgb(28, 73, 94);">
+                                <p class="card-text text-light">Yet to be updated.
+                                    
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 c  d-flex justify-content-center">
+                        <div class="card">
+                            <div class="card-header bg-dark text-center ">
+                                <strong class="card-title text-light"> Misc</strong>
+                            </div>
+                            <div class="card-body text-white " style="background-color: rgba(117, 20, 146, 0.753);">
+                                <p class="card-text text-light">Yet to be updated.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- Popper.js first, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

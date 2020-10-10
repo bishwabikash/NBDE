@@ -1,0 +1,361 @@
+
+body{
+    background: url(./images/bg.jpg);
+    background-color: rgba(32, 36, 54, 0.445);
+    background-blend-mode: darken;
+    font-family: 'Poppins', sans-serif;
+
+    
+   
+    
+}
+
+/* ...........first section/ header-menu .........................*/
+
+
+.row1{
+    margin: 1% 4%;
+    
+}
+
+
+.col11{
+
+    background-color: #fff;
+    height: 15vh;
+    box-sizing: border-box;
+    border-radius: 30px 0px 0px 30px;
+    border-right: 1px solid rgba(201, 199, 199, 0.705);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+   
+    
+}
+
+
+
+
+
+
+.col12{
+
+    background-color: #fff;
+    height: 15vh;
+    box-sizing: border-box;
+    border-radius: 0px 30px 30px 0px;
+    display: flex;
+    align-items: center;
+    
+   
+    
+    
+
+}
+
+.col12 .right-header{
+    width: 900px;
+    display: flex;
+    align-items: center;   
+    justify-content: space-evenly;
+    flex-direction: row;
+
+
+}
+.col12 .searchbar{
+    display: inline-block;
+    width: 380px;
+}
+
+
+.col12 .searchbar .inp1{
+    border-style: none;
+    outline-style: none;
+    border: 2px solid rgba(52, 28, 95, 0.534);
+    box-shadow: 1px 0px 1px 1px rgba(207, 206, 206, 0.24);
+    padding: 12px 35px;
+}
+
+.col12 .inp2{
+    padding: 13px 10px; 
+    border: 1px solid rgb(209, 206, 206);
+    background-color:  #473b7a9d;
+    outline-style: none;
+    transition: 0.4s;
+    color: rgb(245, 241, 241);
+    
+    
+  
+}
+.col12 .inp2:hover{
+    background-color:  #473b7ad2;
+    
+}
+
+.col12 .notify{
+    display: inline-block;
+    width: 160px;
+    
+  
+
+}
+.col12 .notify i{
+    padding:  5px 10px;
+    font-size: 30px;
+    color: #473b7a9d;
+}
+
+.col12 .profile{
+    display: inline-block;
+    width: 120px;
+}
+
+.col12 .dropdown{
+    display: inline-block;
+   
+}
+.col12 .dropdown i{
+    color:  #473b7a9d;;
+   
+}
+
+/* ...........second-section/db & main content */
+
+.second-section{
+    margin: auto;
+    width: 90vw;
+    height: 80vh;
+    
+    
+    background-color: rgba(36, 34, 26, 0.384);
+    border-radius: 20px;
+  
+}
+
+.col21{
+
+border-right: 1px solid rgba(187, 185, 185, 0.486);
+height: 80vh;
+display: flex;
+justify-content: center;
+align-self: start;
+
+
+}
+
+
+.col21 .dashboard-menu ul li{
+    list-style: none;
+    padding: 10px 0px 10px 0px;
+
+    
+}
+.col21 .dashboard-menu ul li a{
+    text-decoration: none;
+    color:rgba(11, 16, 58, 0.849);
+    transition: 0.5s;
+    font-weight: 500;
+   
+    
+    
+    
+}
+
+.col21 .dashboard-menu ul li a:hover{
+    color: rgb(22, 177, 86);
+    
+    
+    
+}
+
+
+
+.col21 .dashboard-menu ul li i{
+    color: rgba(5, 35, 119, 0.705);
+    padding: 5px 2px 5px 0px;
+}
+
+.dashboard-menu .lower-side-menu ul li a:hover{
+    color: rgb(46, 44, 44) !important;
+     border-bottom: 3px solid rgba(93, 6, 160, 0.144);
+    transition: 0.2s  !important; 
+    
+}
+
+
+
+
+
+.col22{
+   
+    background-color: #fff;
+    margin: 30px 0px 30px 30px;
+    width: 69%;
+    height: 71vh;
+    border-radius: 20px;
+
+
+}
+.col22 .students{
+
+height: 135px;
+
+
+}
+
+.col22  .card{
+    width: 16vw;
+    font-size: 11px;
+    margin-top: 13px;
+    transition: 0.4s;
+     
+    
+
+}
+
+
+.col22  .card:hover{
+    transform: scale(1.1);
+}
+
+
+
+.col22 .exams {
+    height: 130px;
+    position: relative;
+    bottom: 11px;
+}
+
+.col22 .shipping {
+    height: 18vh;
+    position: relative;
+    bottom: 7px;
+}
+
+
+/* ...........Dropdown notifications............ */
+
+
+.notify ul li ul li{
+    display: block;
+    text-align: center;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+
+.notify ul li ul li a{
+    display:block;
+    text-decoration: none;
+    font-weight: 500;
+    color: rgba(13, 29, 59, 0.87);
+    transition: 0.4s;
+
+
+}
+
+/* notification hover effect */
+
+.notify  ul li ul{
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.7s;
+    transform: scale(0);
+    transform-origin: top right;
+
+}
+
+.notify ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+
+.notify ul li ul li a:hover{
+    transform: scale(1.1);
+    color: rgba(13, 29, 59, 0.87);
+} 
+
+
+
+/* dropdown account section */
+
+.right-header{
+    position: relative;
+}
+
+.dropdown ul{
+    list-style: none;
+}
+
+.dropdown  ul li ul{
+    
+    position: absolute;
+    top: 80%;
+    left: -250px;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(47, 221, 163);
+    z-index: 99;
+    border-radius: 20px 0px 20px 20px;
+    
+    
+
+}
+
+.dropdown ul li ul li{
+    display: block;
+    text-align: center;
+    margin-right: 30px;
+    margin-top: 15px;
+    
+}
+.dropdown ul li ul li a{
+    display:block;
+    text-decoration: none;
+    font-weight: 500;
+    color: rgba(13, 29, 59, 0.87);
+    transition: 0.4s;
+}
+.dropdown ul li ul li h6{
+    color: rgba(13, 29, 59, 0.87);
+}
+.dropdown ul li ul li p{
+    color: rgba(13, 29, 59, 0.87);
+
+}
+
+
+/* hover effect */
+
+.dropdown  ul li ul{
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.7s;
+    transform: scale(0);
+    transform-origin: top right;
+
+}
+
+.dropdown ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+
+.dropdown ul li ul li a:hover{
+    transform: scale(1.1);
+    color: rgba(13, 29, 59, 0.87);
+} 
+
+
+
+
+
+  
+
+
+
